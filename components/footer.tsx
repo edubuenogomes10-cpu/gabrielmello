@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Camera, Instagram, MessageCircle } from "lucide-react";
+import { withBasePath } from "@/lib/base-path";
 import { siteContent } from "@/lib/site-content";
 
 export function Footer() {
@@ -112,7 +113,7 @@ export function Footer() {
             className="inline-flex items-center gap-3 text-sm text-white/60 transition-colors hover:text-gold"
           >
             <Image
-              src="/eduardo-bueno-logo.ico"
+              src={withBasePath("/eduardo-bueno-logo.ico")}
               alt="Logo Eduardo Bueno Dev"
               width={22}
               height={22}

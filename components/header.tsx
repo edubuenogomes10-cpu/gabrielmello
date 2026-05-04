@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 
+import { withBasePath } from "@/lib/base-path";
 import { ThemeToggle } from "@/components/theme-toggle";
 
 export function Header() {
@@ -24,7 +25,7 @@ export function Header() {
         <nav className="flex items-center justify-between">
           <Link href="/" className="group flex items-center">
             <Image
-              src="/gabriel-mello-logo-header.png"
+              src={withBasePath("/gabriel-mello-logo-header.png")}
               alt="Gabriel Mello Fotografia"
               width={1632}
               height={612}

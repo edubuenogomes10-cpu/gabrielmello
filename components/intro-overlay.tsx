@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { withBasePath } from "@/lib/base-path";
 
 export function IntroOverlay() {
   return (
@@ -14,7 +15,7 @@ export function IntroOverlay() {
       <div className="intro-stage relative z-10 w-full px-5 sm:px-8">
         <div className="intro-logo-shell mx-auto w-full max-w-[20rem] sm:max-w-[44rem] lg:max-w-[70rem]">
           <Image
-            src="/gm-intro-logo-transparent-warm.png"
+            src={withBasePath("/gm-intro-logo-transparent-warm.png")}
             alt="Gabriel Mello Fotografia"
             width={1632}
             height={612}

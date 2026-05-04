@@ -1,3 +1,5 @@
+import { withBasePath } from "@/lib/base-path";
+
 export const siteContent = {
   brand: "Gabriel Mello",
   brandShort: "Gabriel",
@@ -102,49 +104,49 @@ export const siteContent = {
     {
       id: 1,
       category: "Casamentos",
-      image: "/gm-casamento.jpg",
+      image: withBasePath("/gm-casamento.jpg"),
       title: "HistÃ³rias de Amor",
     },
     {
       id: 2,
       category: "Casamentos",
-      image: "/gm-noiva.jpg",
+      image: withBasePath("/gm-noiva.jpg"),
       title: "ElegÃ¢ncia em Cada Detalhe",
     },
     {
       id: 3,
       category: "Ensaios",
-      image: "/gm-gestante.jpg",
+      image: withBasePath("/gm-gestante.jpg"),
       title: "MemÃ³rias que ComeÃ§am Antes",
     },
     {
       id: 4,
       category: "Ensaios",
-      image: "/gm-pascoa.jpg",
+      image: withBasePath("/gm-pascoa.jpg"),
       title: "FamÃ­lia e Datas Especiais",
     },
     {
       id: 5,
       category: "Formaturas",
-      image: "/gm-formatura.jpg",
+      image: withBasePath("/gm-formatura.jpg"),
       title: "Um Marco",
     },
     {
       id: 6,
       category: "Eventos",
-      image: "/gm-rodeio.jpg",
+      image: withBasePath("/gm-rodeio.jpg"),
       title: "Rodeio e TradiÃ§Ã£o",
     },
     {
       id: 7,
       category: "Eventos",
-      image: "/gm-tratorfest.jpg",
+      image: withBasePath("/gm-tratorfest.jpg"),
       title: "Cobertura de Feiras e ExposiÃ§Ãµes",
     },
     {
       id: 8,
       category: "Eventos",
-      image: "/gm-evento-cavalo.jpg",
+      image: withBasePath("/gm-evento-cavalo.jpg"),
       title: "Registros EspontÃ¢neos",
     },
   ],

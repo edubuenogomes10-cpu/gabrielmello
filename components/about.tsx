@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Award, Camera, Clock, Heart } from "lucide-react";
+import { withBasePath } from "@/lib/base-path";
 import { siteContent } from "@/lib/site-content";
 
 const stats = [
@@ -17,7 +18,7 @@ export function About() {
           <div className="relative animate-fade-scale">
             <div className="relative aspect-[3/4] overflow-hidden animate-glow">
               <Image
-                src="/gm-about.jpg"
+                src={withBasePath("/gm-about.jpg")}
                 alt={`${siteContent.person} - fotógrafo`}
                 fill
                 className="object-cover transition-transform duration-1000 hover:scale-105"
