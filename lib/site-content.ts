@@ -9,94 +9,94 @@ export const siteContent = {
   whatsappUrl: "https://wa.me/5551995013100",
   galleryUrl: "https://www.fotto.com.br/gabriel.mello",
   phoneDisplay: "(51) 99501-3100",
-  locationDisplay: "Av. GetÃºlio Vargas, Hulha Negra - RS, 96460-000",
-  tagline: "ExcelÃªncia â€¢ SofisticaÃ§Ã£o â€¢ EmoÃ§Ã£o",
+  locationDisplay: "Av. Getúlio Vargas, Hulha Negra - RS, 96460-000",
+  tagline: "Excelência • Sofisticação • Emoção",
   heroTitle: "Onde momentos se tornam eternos",
   heroDescription:
-    "Fotografia de eventos com olhar sensÃ­vel para casamentos, formaturas, rodeios, feiras e ensaios especiais no sul do Rio Grande do Sul.",
+    "Fotografia de eventos com olhar sensível para casamentos, formaturas, rodeios, feiras e ensaios especiais no sul do Rio Grande do Sul.",
   aboutTitle: "Gabriel Mello",
   aboutParagraphs: [
-    "Sou Gabriel Mello, fotÃ³grafo, e transformei a fotografia em propÃ³sito: registrar momentos Ãºnicos com sensibilidade, presenÃ§a e memÃ³ria.",
-    "Com base em Hulha Negra, uno direÃ§Ã£o leve, olhar atento e acabamento cuidadoso para entregar registros com identidade, elegÃ¢ncia e emoÃ§Ã£o.",
+    "Sou Gabriel Mello, fotógrafo, e transformei a fotografia em propósito: registrar momentos únicos com sensibilidade, presença e memória.",
+    "Com base em Hulha Negra, uno direção leve, olhar atento e acabamento cuidadoso para entregar registros com identidade, elegância e emoção.",
   ],
   stats: [
-    { value: "115", label: "publicaÃ§Ãµes autorais no perfil" },
-    { value: "20", label: "destaques pÃºblicos no Instagram" },
+    { value: "115", label: "publicações autorais no perfil" },
+    { value: "20", label: "destaques públicos no Instagram" },
     { value: "+1,8 mil", label: "seguidores acompanhando o trabalho" },
-    { value: "RS", label: "cobertura em Hulha Negra e regiÃ£o" },
+    { value: "RS", label: "cobertura em Hulha Negra e região" },
   ],
   services: [
     {
       title: "Casamentos",
       whatsappMessage:
-        "OlÃ¡, Gabriel Mello! Gostaria de solicitar um orÃ§amento para cobertura de casamento. Podem me passar mais informaÃ§Ãµes?",
+        "Olá, Gabriel Mello! Gostaria de solicitar um orçamento para cobertura de casamento. Podem me passar mais informações?",
       description:
-        "Cobertura sensÃ­vel do making of Ã  celebraÃ§Ã£o, com atenÃ§Ã£o aos detalhes, aos encontros e Ã  emoÃ§Ã£o real de cada etapa.",
+        "Cobertura sensível do making of à celebração, com atenção aos detalhes, aos encontros e à emoção real de cada etapa.",
       features: [
-        "CerimÃ´nia e recepÃ§Ã£o",
+        "Cerimônia e recepção",
         "Retratos do casal",
-        "Registros espontÃ¢neos",
+        "Registros espontâneos",
         "Entrega pensada para reviver o dia",
       ],
     },
     {
       title: "Formaturas",
       whatsappMessage:
-        "OlÃ¡, Gabriel Mello! Tenho interesse em um orÃ§amento para formatura. Queria saber como funciona a cobertura.",
+        "Olá, Gabriel Mello! Tenho interesse em um orçamento para formatura. Queria saber como funciona a cobertura.",
       description:
-        "Ensaios e coberturas que valorizam a conquista, a presenÃ§a e a identidade de cada formando em um momento Ãºnico.",
+        "Ensaios e coberturas que valorizam a conquista, a presença e a identidade de cada formando em um momento único.",
       features: [
         "Ensaios externos",
-        "SessÃµes individuais ou em grupo",
-        "ColaÃ§Ã£o e celebraÃ§Ã£o",
-        "EstÃ©tica elegante e atual",
+        "Sessões individuais ou em grupo",
+        "Colação e celebração",
+        "Estética elegante e atual",
       ],
     },
     {
       title: "Eventos e Rodeios",
       whatsappMessage:
-        "OlÃ¡, Gabriel Mello! Quero solicitar um orÃ§amento para cobertura de evento ou rodeio. Podem me passar os detalhes?",
+        "Olá, Gabriel Mello! Quero solicitar um orçamento para cobertura de evento ou rodeio. Podem me passar os detalhes?",
       description:
-        "Cobertura fotogrÃ¡fica para feiras, exposiÃ§Ãµes, rodeios e eventos regionais, registrando pÃºblico, bastidores e atmosfera.",
+        "Cobertura fotográfica para feiras, exposições, rodeios e eventos regionais, registrando público, bastidores e atmosfera.",
       features: [
         "Cobertura oficial",
         "Arena, palco e bastidores",
-        "Material para divulgaÃ§Ã£o",
-        "Olhar tÃ©cnico para grandes eventos",
+        "Material para divulgação",
+        "Olhar técnico para grandes eventos",
       ],
     },
     {
       title: "Ensaios Especiais",
       whatsappMessage:
-        "OlÃ¡, Gabriel Mello! Tenho interesse em um ensaio especial e queria pedir um orÃ§amento. Podem falar comigo?",
+        "Olá, Gabriel Mello! Tenho interesse em um ensaio especial e queria pedir um orçamento. Podem falar comigo?",
       description:
-        "Gestante, famÃ­lia, infantil e datas temÃ¡ticas com direÃ§Ã£o leve e natural para criar memÃ³rias afetivas e autÃªnticas.",
+        "Gestante, família, infantil e datas temáticas com direção leve e natural para criar memórias afetivas e autênticas.",
       features: [
         "Gestante",
-        "FamÃ­lia",
+        "Família",
         "Infantil e sazonal",
-        "ConduÃ§Ã£o tranquila e espontÃ¢nea",
+        "Condução tranquila e espontânea",
       ],
     },
   ],
   values: [
     {
-      title: "EmoÃ§Ãµes reais",
+      title: "Emoções reais",
       subtitle: "Meu olhar",
       content:
-        "Fotografar vai alÃ©m da imagem. Ã‰ capturar emoÃ§Ãµes verdadeiras, detalhes que passam despercebidos e histÃ³rias que merecem ser lembradas para sempre.",
+        "Fotografar vai além da imagem. É capturar emoções verdadeiras, detalhes que passam despercebidos e histórias que merecem ser lembradas para sempre.",
     },
     {
-      title: "ExperiÃªncia completa",
+      title: "Experiência completa",
       subtitle: "Meu compromisso",
       content:
-        "Cada cliente carrega uma histÃ³ria. Meu compromisso Ã© entregar mais do que fotos: Ã© oferecer uma experiÃªncia com profissionalismo, sensibilidade e excelÃªncia.",
+        "Cada cliente carrega uma história. Meu compromisso é entregar mais do que fotos: é oferecer uma experiência com profissionalismo, sensibilidade e excelência.",
     },
     {
-      title: "MemÃ³ria enquanto acontece",
-      subtitle: "Minha presenÃ§a",
+      title: "Memória enquanto acontece",
+      subtitle: "Minha presença",
       content:
-        "Enquanto vocÃª vive o momento, eu cuido da memÃ³ria com discriÃ§Ã£o, timing e atenÃ§Ã£o ao que faz cada evento ser Ãºnico.",
+        "Enquanto você vive o momento, eu cuido da memória com discrição, timing e atenção ao que faz cada evento ser único.",
     },
   ],
   portfolioCategories: ["Todos", "Casamentos", "Ensaios", "Formaturas", "Eventos"],
@@ -105,25 +105,25 @@ export const siteContent = {
       id: 1,
       category: "Casamentos",
       image: withBasePath("/gm-casamento.jpg"),
-      title: "HistÃ³rias de Amor",
+      title: "Histórias de Amor",
     },
     {
       id: 2,
       category: "Casamentos",
       image: withBasePath("/gm-noiva.jpg"),
-      title: "ElegÃ¢ncia em Cada Detalhe",
+      title: "Elegância em Cada Detalhe",
     },
     {
       id: 3,
       category: "Ensaios",
       image: withBasePath("/gm-gestante.jpg"),
-      title: "MemÃ³rias que ComeÃ§am Antes",
+      title: "Memórias que Começam Antes",
     },
     {
       id: 4,
       category: "Ensaios",
       image: withBasePath("/gm-pascoa.jpg"),
-      title: "FamÃ­lia e Datas Especiais",
+      title: "Família e Datas Especiais",
     },
     {
       id: 5,
@@ -135,19 +135,19 @@ export const siteContent = {
       id: 6,
       category: "Eventos",
       image: withBasePath("/gm-rodeio.jpg"),
-      title: "Rodeio e TradiÃ§Ã£o",
+      title: "Rodeio e Tradição",
     },
     {
       id: 7,
       category: "Eventos",
       image: withBasePath("/gm-tratorfest.jpg"),
-      title: "Cobertura de Feiras e ExposiÃ§Ãµes",
+      title: "Cobertura de Feiras e Exposições",
     },
     {
       id: 8,
       category: "Eventos",
       image: withBasePath("/gm-evento-cavalo.jpg"),
-      title: "Registros EspontÃ¢neos",
+      title: "Registros Espontâneos",
     },
   ],
 } as const;

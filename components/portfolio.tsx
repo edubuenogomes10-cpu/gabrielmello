@@ -16,7 +16,10 @@ import {
 import { siteContent } from "@/lib/site-content";
 
 const mobilePreviewItems = siteContent.portfolioItems.slice(0, 2);
-const remainingItemsCount = Math.max(siteContent.portfolioItems.length - mobilePreviewItems.length, 0);
+const remainingItemsCount = Math.max(
+  siteContent.portfolioItems.length - mobilePreviewItems.length,
+  0,
+);
 
 export function Portfolio() {
   return (
@@ -27,7 +30,7 @@ export function Portfolio() {
             Trabalhos Selecionados
           </p>
           <h2 className="font-serif text-4xl font-light text-foreground animate-fade-up animation-delay-100 md:text-5xl">
-            PortfÃ³lio
+            Portfólio
           </h2>
           <div className="section-divider mx-auto mt-6 h-px w-24 bg-gold animate-line-grow animation-delay-300" />
         </div>
@@ -58,7 +61,7 @@ export function Portfolio() {
                 <DialogTrigger asChild>
                   <button
                     type="button"
-                    aria-label="Abrir mais fotos do portfÃ³lio"
+                    aria-label="Abrir mais fotos do portfólio"
                     className="group shimmer-card relative block aspect-[4/5] w-full overflow-hidden rounded-[1.75rem] text-left animate-fade-up animation-delay-200"
                   >
                     <Image
@@ -91,7 +94,8 @@ export function Portfolio() {
                   Mais fotos
                 </DialogTitle>
                 <DialogDescription>
-                  Uma seleÃ§Ã£o completa dos registros para navegar com mais calma no mobile.
+                  Uma seleção completa dos registros para navegar com mais calma no
+                  mobile.
                 </DialogDescription>
               </DialogHeader>
 

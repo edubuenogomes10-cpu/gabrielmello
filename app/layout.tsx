@@ -19,8 +19,7 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: `${siteContent.person} | Fotografia`,
-  description:
-    `${siteContent.person} é fotógrafo de eventos com cobertura para casamentos, formaturas, rodeios, feiras e ensaios em Hulha Negra e região.`,
+  description: `${siteContent.person} é fotógrafo de eventos com cobertura para casamentos, formaturas, rodeios, feiras e ensaios em Hulha Negra e região.`,
   keywords: [
     "Gabriel Mello",
     "fotografia de eventos",
