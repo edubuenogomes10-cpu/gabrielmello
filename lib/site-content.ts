@@ -149,5 +149,35 @@ export const siteContent = {
       image: withBasePath("/gm-evento-cavalo.jpg"),
       title: "Registros Espontâneos",
     },
+    {
+      id: 9,
+      category: "Eventos",
+      image: withBasePath("/gm-evento-corte-01.jpg"),
+      title: "Desfile e Presença de Palco",
+    },
+    {
+      id: 10,
+      category: "Eventos",
+      image: withBasePath("/gm-evento-corte-02.jpg"),
+      title: "Elegância em Movimento",
+    },
+    {
+      id: 11,
+      category: "Eventos",
+      image: withBasePath("/gm-evento-corte-05.jpg"),
+      title: "Passarela e Cobertura Social",
+    },
+    {
+      id: 12,
+      category: "Eventos",
+      image: withBasePath("/gm-evento-corte-07.jpg"),
+      title: "Retratos de Evento ao Vivo",
+    },
+    {
+      id: 13,
+      category: "Eventos",
+      image: withBasePath("/gm-evento-corte-08.jpg"),
+      title: "Corte e Destaques da Noite",
+    },
   ],
 } as const;
