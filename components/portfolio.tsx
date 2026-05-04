@@ -8,7 +8,6 @@ import {
   Dialog,
   DialogClose,
   DialogContent,
-  DialogDescription,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -93,10 +92,6 @@ export function Portfolio() {
                 <DialogTitle className="font-serif text-3xl font-light text-foreground">
                   Mais fotos
                 </DialogTitle>
-                <DialogDescription>
-                  Uma seleção completa dos registros para navegar com mais calma no
-                  mobile.
-                </DialogDescription>
               </DialogHeader>
 
               <div className="grid grid-cols-1 gap-4 p-6 sm:grid-cols-2 lg:grid-cols-3">
