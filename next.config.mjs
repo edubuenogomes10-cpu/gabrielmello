@@ -1,5 +1,16 @@
+const repoName = "gabrielmello";
+const isProduction = process.env.NODE_ENV === "production";
+const basePath = isProduction ? `/${repoName}` : "";
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
+  trailingSlash: true,
+  basePath,
+  assetPrefix: basePath,
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
+  },
   typescript: {
     ignoreBuildErrors: true,
   },

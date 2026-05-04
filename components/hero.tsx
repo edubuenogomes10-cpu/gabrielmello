@@ -1,5 +1,6 @@
 import { ArrowDown } from "lucide-react";
 import Link from "next/link";
+import { withBasePath } from "@/lib/base-path";
 import { siteContent } from "@/lib/site-content";
 
 export function Hero() {
@@ -11,7 +12,7 @@ export function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat animate-bg-pan"
         style={{
-          backgroundImage: "url('/gm-noiva.jpg')",
+          backgroundImage: `url('${withBasePath("/gm-noiva.jpg")}')`,
         }}
       >
         <div className="absolute inset-0 bg-brown/40" />
