@@ -10,7 +10,7 @@ export function Testimonials() {
             A Essência da Marca
           </p>
           <h2 className="font-serif text-4xl font-light text-white animate-fade-up animation-delay-100 md:text-5xl">
-            O Olhar de Gabriel Mello
+            O olhar de Gabriel Mello
           </h2>
           <div className="section-divider mx-auto mt-6 h-px w-24 bg-gold animate-line-grow animation-delay-200" />
         </div>
