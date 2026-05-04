@@ -179,5 +179,17 @@ export const siteContent = {
       image: withBasePath("/gm-evento-corte-08.jpg"),
       title: "Corte e Destaques da Noite",
     },
+    {
+      id: 14,
+      category: "Ensaios",
+      image: withBasePath("/gm-ensaio-lis-quintana-01.jpg"),
+      title: "Retrato Profissional com Personalidade",
+    },
+    {
+      id: 15,
+      category: "Ensaios",
+      image: withBasePath("/gm-ensaio-lis-quintana-02.jpg"),
+      title: "Imagem de Marca e Presença",
+    },
   ],
 } as const;
