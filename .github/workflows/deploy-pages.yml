@@ -36,9 +36,17 @@ jobs:
       - name: Disable Jekyll
         run: touch out/.nojekyll
 
+      - name: Prepare Pages bundle
+        shell: bash
+        run: |
+          rm -rf pages-dist
+          mkdir -p pages-dist/docs
+          cp -R out/. pages-dist/
+          cp -R out/. pages-dist/docs/
+
       - name: Deploy to gh-pages branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: out
+          folder: pages-dist
           clean: true
