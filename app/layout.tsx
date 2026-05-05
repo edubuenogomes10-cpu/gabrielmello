@@ -34,6 +34,9 @@ export const metadata: Metadata = {
     shortcut: withBasePath("/gm-logo-mark-hq.png"),
     apple: withBasePath("/gm-logo-mark-hq.png"),
   },
+  verification: {
+    google: "kv981Z73rZHRnpAHG47NEYqzGL6kTcgWocYSxHluqQo",
+  },
 };
 
 export default function RootLayout({
