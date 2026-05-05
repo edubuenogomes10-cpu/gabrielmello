@@ -1,13 +1,17 @@
 const repoName = "gabrielmello";
-const isProduction = process.env.NODE_ENV === "production";
-const basePath = isProduction ? `/${repoName}` : "";
+const isGithubPages = process.env.DEPLOY_TARGET === "github-pages";
+const basePath = isGithubPages ? `/${repoName}` : "";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
   trailingSlash: true,
-  basePath,
-  assetPrefix: basePath,
+  ...(basePath
+    ? {
+        basePath,
+        assetPrefix: basePath,
+      }
+    : {}),
   env: {
     NEXT_PUBLIC_BASE_PATH: basePath,
   },
