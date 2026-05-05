@@ -30,21 +30,9 @@ export const metadata: Metadata = {
     "Hulha Negra",
   ],
   icons: {
-    icon: [
-      {
-        url: withBasePath("/icon-light-32x32.png"),
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: withBasePath("/icon-dark-32x32.png"),
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: withBasePath("/icon.svg"),
-        type: "image/svg+xml",
-      },
-    ],
-    apple: withBasePath("/apple-icon.png"),
+    icon: withBasePath("/gm-logo-mark-hq.png"),
+    shortcut: withBasePath("/gm-logo-mark-hq.png"),
+    apple: withBasePath("/gm-logo-mark-hq.png"),
   },
 };
 
