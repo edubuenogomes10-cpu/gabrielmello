@@ -117,13 +117,13 @@ export const siteContent = {
       id: 16,
       category: "Casamentos",
       image: withBasePath("/gm-casamento-cerimonia-igreja.jpg"),
-      title: "Cerimonia na Igreja",
+      title: "Cerimônia na Igreja",
     },
     {
       id: 17,
       category: "Casamentos",
       image: withBasePath("/gm-casamento-saida-petalas.jpg"),
-      title: "Saida com Petalas",
+      title: "Saída com Pétalas",
     },
     {
       id: 18,
@@ -141,13 +141,13 @@ export const siteContent = {
       id: 20,
       category: "Casamentos",
       image: withBasePath("/gm-casamento-buque-noiva.jpg"),
-      title: "Momento do Buque",
+      title: "Momento do Buquê",
     },
     {
       id: 21,
       category: "Casamentos",
       image: withBasePath("/gm-casamento-cerimonia-ampla.jpg"),
-      title: "Cerimonia Completa",
+      title: "Cerimônia Completa",
     },
     {
       id: 22,
