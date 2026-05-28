@@ -114,6 +114,48 @@ export const siteContent = {
       title: "Elegância em Cada Detalhe",
     },
     {
+      id: 16,
+      category: "Casamentos",
+      image: withBasePath("/gm-casamento-cerimonia-igreja.jpg"),
+      title: "Cerimonia na Igreja",
+    },
+    {
+      id: 17,
+      category: "Casamentos",
+      image: withBasePath("/gm-casamento-saida-petalas.jpg"),
+      title: "Saida com Petalas",
+    },
+    {
+      id: 18,
+      category: "Casamentos",
+      image: withBasePath("/gm-casamento-retrato-casal.jpg"),
+      title: "Retrato do Casal",
+    },
+    {
+      id: 19,
+      category: "Casamentos",
+      image: withBasePath("/gm-casamento-chegada-casal.jpg"),
+      title: "Entrada dos Noivos",
+    },
+    {
+      id: 20,
+      category: "Casamentos",
+      image: withBasePath("/gm-casamento-buque-noiva.jpg"),
+      title: "Momento do Buque",
+    },
+    {
+      id: 21,
+      category: "Casamentos",
+      image: withBasePath("/gm-casamento-cerimonia-ampla.jpg"),
+      title: "Cerimonia Completa",
+    },
+    {
+      id: 22,
+      category: "Casamentos",
+      image: withBasePath("/gm-casamento-preto-branco.jpg"),
+      title: "Amor em Preto e Branco",
+    },
+    {
       id: 3,
       category: "Ensaios",
       image: withBasePath("/gm-gestante.jpg"),
