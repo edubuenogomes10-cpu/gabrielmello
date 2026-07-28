@@ -222,6 +222,36 @@ export const siteContent = {
       title: "Corte e Destaques da Noite",
     },
     {
+      id: 23,
+      category: "Eventos",
+      image: withBasePath("/gm-evento-15-anos-decoracao.jpeg"),
+      title: "DecoraÃ§Ã£o de 15 Anos",
+    },
+    {
+      id: 24,
+      category: "Eventos",
+      image: withBasePath("/gm-evento-15-anos-convidado.jpeg"),
+      title: "Retrato de Convidado",
+    },
+    {
+      id: 25,
+      category: "Eventos",
+      image: withBasePath("/gm-evento-15-anos-debutante-retrato.jpeg"),
+      title: "Debutante em Destaque",
+    },
+    {
+      id: 26,
+      category: "Eventos",
+      image: withBasePath("/gm-evento-15-anos-debutante-vestido.jpeg"),
+      title: "Vestido de Debutante",
+    },
+    {
+      id: 27,
+      category: "Eventos",
+      image: withBasePath("/gm-evento-15-anos-convidada.jpeg"),
+      title: "ElegÃ¢ncia na CelebraÃ§Ã£o",
+    },
+    {
       id: 14,
       category: "Ensaios",
       image: withBasePath("/gm-ensaio-lis-quintana-01.jpg"),
